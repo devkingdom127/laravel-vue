@@ -143,17 +143,3 @@ with the attributes from the database. Behind the scenes an OR mapper ([Eloquent
 with the database. There are also the routes to the home page (`http://localhost:8000`) and to the page where you can add a new job (`http://localhost:8000/jobs`).
 
 Regarding the frontend, we do not expect a fancy UI design but keep mobile-first and responsiveness in mind when layouting the pages.
-
-## How to submit
-You should send your submission to [juergen.ratzenboeck@jobs.at](mailto:juergen.ratzenboeck@jobs.at?subject=[jobs.at Coding Challenge Submision])
-at latest five hours before the second interview so that I can take a look at it in advance.
-
-The preferred option is to send us a link to the forked repository in your Github account.
-If you do not have one, please send us your result either as ZIP archive or by sharing a link to some other cloud service
-where you have stored it.
-
-If you have any questions do not hesitate to contact us.
-
-We are already curious about your results.
-
-Happy coding :)
