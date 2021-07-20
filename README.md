@@ -1,19 +1,8 @@
-# jobs.at coding exercise
-
-We're happy you applied for a job as web developer at jobs.at :)
-Before you can get started at jobs.at, we have a small exercise for you where you can show us your skills
-as full-stack web developer.
-
-## Exercise description
-
-At jobs.at we obviously have to deal a lot of with jobs, companies and people who are looking for a job.
-Thus, this coding challenge will also have to do with our main topic :)
+## Task description
 
 We want you to create a small web app where the user can find jobs he/she is interested in. Moreover, there should
 be the possibility to publish a new job for an admin user and make it available to potential candidates.
 The next section outlines the specific task we want you to do.
-If you cannot complete all the tasks, don't mind to send us the results you have. We'll discuss the coding challenge
-at the second interview with you together.
 
 ## Tasks to be done
 
@@ -27,10 +16,10 @@ at the second interview with you together.
     * Location.
     * Date and Time the job was published (format: yyyy-MM-dd HH:mm:ss)
 
-   The jobs in the list should be sorted by the `created_at` timestamp descending by default, which means that the most recent ones should be at the top.
-   Moreover, only the jobs which were created within the last week should be included in the list.
-   There should be a button above the job list which can reverse the order.
-   A job can either be active or inactive if taken by an applicant. As a user I want to see visually which job is active
+   - The jobs in the list should be sorted by the `created_at` timestamp descending by default, which means that the most recent ones should be at the top.
+   - Moreover, only the jobs which were created within the last week should be included in the list.
+   - There should be a button above the job list which can reverse the order.
+   - A job can either be active or inactive if taken by an applicant. As a user I want to see visually which job is active
    and which one inactive. Think about how this can look in the UI and implement it.
 
 At the bottom of this section there is a link to a UI-Mockup, which shows you how the layout of the small web-app
@@ -101,7 +90,7 @@ Now, you are already setup to run this project for the first time.
 2. Run `cd coding-exercise` to change to the project folder.
 3. Run `composer install` to install all PHP dependencies.
 4. Copy the content of `.env.example` to `.env` file.
-5. Run `php artisan generate:key` to generate the necessary application key which will be put automatically into you `.env` file.
+5. Run `php artisan key:generate` to generate the necessary application key which will be put automatically into you `.env` file.
 6. Run `php artisan serve` to startup the development server.
 7. Open [http://localhost:8000/](http://localhost:8000/) in your browser.
 
@@ -123,7 +112,7 @@ Now run
 In order to make the user experience more realistic the project uses a MySql database to store the jobs and companies
 needed to complete the exercise. You therefore need to start a MySql database on your computer.
 
-If have MySql installed on your machine, add a new database called `coding-exercise`. The default user
+If have MySql installed on your machine, add a new database called `coding_exercise_frontend_vanillajs`. The default user
 for this project is `root` with an empty password. If you want to use a different mysql user, change the config in your
 `.env` file.
 
